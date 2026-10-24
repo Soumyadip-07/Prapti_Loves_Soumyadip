@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#35121f">
+  <meta name="description" content="A little birthday universe made with love for Prapti.">
+  <title>Tomato ♥ Alu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="wordmark" href="#home" aria-label="Back to top">S<span>♥</span>P</a>
+    <nav aria-label="Main navigation">
+      <a href="#story">Our story</a><a href="#memories">Memories</a><a href="#letter">A letter</a>
+    </nav>
+    <button class="music-toggle" id="musicToggle" type="button" aria-pressed="false">
+      <span class="music-dot"></span><span id="musicLabel">Stop music</span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero section-pad" id="home">
+      <div class="hero-ornament ornament-one">✳</div><div class="hero-ornament ornament-two">♡</div>
+      <p class="eyebrow"><span></span> 25 October 2026 <span></span></p>
+      <p class="tiny-script">a little world, made just for you</p>
+      <h1>Happy Birthday,<br><em>Manai.</em> <span class="heart">♥</span></h1>
+      <p class="hero-copy">To my favourite person, Prapti.<br>Here is a little place for our story, our memories,<br class="desktop-only"> and all the things my heart still wants to say.</p>
+      <a class="primary-button" href="#story">Open your little world <span>↓</span></a>
+      <div class="hero-note"><span>18.04.2023</span><i></i><span>and still, our story</span></div>
+      <div class="hero-stamp" aria-label="Made with love">MADE<br>WITH<br><b>♥</b></div>
+    </section>
+
+    <section class="intro-strip">
+      <span>one story</span><i>✦</i><span>two hearts</span><i>✦</i><span>so many memories</span>
+    </section>
+
+    <section class="story section-pad" id="story">
+      <div class="section-heading">
+        <p class="eyebrow">CHAPTERS OF US</p>
+        <h2>Every love story has<br><em>its own little universe.</em></h2>
+        <p>Ours is made of ordinary days, unforgettable moments, and a bond that means more than words can hold.</p>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="timeline-marker">01</div><div class="timeline-card">
+            <p class="timeline-date">18 APRIL 2023 · THE BEGINNING</p>
+            <h3>And then, there was us.</h3>
+            <p>One date became the beginning of a story I never want to forget. Since then, you have found your way into my favourite thoughts, my little joys, and the dreams I quietly carry.</p>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-marker">02</div><div class="timeline-card">
+            <p class="timeline-date">THE LITTLE THINGS</p>
+            <h3>Our kind of magic.</h3>
+            <p>The laughs, the silly moments, the tiny details only we understand, and the memories that may look ordinary to the world but mean everything to me.</p>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-marker">03</div><div class="timeline-card">
+            <p class="timeline-date">THE DIFFICULT CHAPTER</p>
+            <h3>Love, even through distance.</h3>
+            <p>Life has not always made it easy for us. There have been difficult days, distance, and things neither of us could simply change. I don't want to define us by the pain—we are more than the hard chapters we have faced.</p>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-marker">04</div><div class="timeline-card">
+            <p class="timeline-date">WHAT I HOPE FOR</p>
+            <h3>More gentle days ahead.</h3>
+            <p>I hope life brings you peace, kindness, laughter, and room to breathe. I hope we keep choosing patience, respect, honesty, and care—one day at a time, in whatever way is right for us.</p>
+          </div>
+        </article>
+      </div>
+      <p class="story-signoff">You are not just a chapter in my life.<br><em>You are someone I will always wish happiness for.</em></p>
+    </section>
+
+    <section class="memories section-pad" id="memories">
+      <div class="section-heading centered">
+        <p class="eyebrow">OUR LITTLE TIME CAPSULE</p>
+        <h2>Memories in <em>motion.</em></h2>
+        <p>Every picture holds a tiny piece of us.</p>
+      </div>
+      <div class="gallery-frame">
+        <div class="gallery-topline"><span>THE PRAPTI & SOUMYADIP ARCHIVE</span><span class="archive-dot">● LIVE ROLL</span></div>
+        <div class="carousel-window" id="carouselWindow" aria-label="Memories photo carousel">
+          <div class="carousel-track" id="carouselTrack">
+            <div class="photo-card demo-card"><div class="photo-placeholder">♡</div><p>Add your Drive folder to reveal our memories</p></div>
+            <div class="photo-card demo-card"><div class="photo-placeholder">✦</div><p>A thousand little moments</p></div>
+            <div class="photo-card demo-card"><div class="photo-placeholder">♥</div><p>Our story, one photo at a time</p></div>
+          </div>
+        </div>
+        <div class="gallery-bottomline"><span id="photoStatus">Demo mode · connect your Google Drive folder</span><div class="carousel-controls"><button id="prevPhoto" aria-label="Previous photos" type="button">←</button><button id="pauseCarousel" aria-label="Pause carousel" type="button">Ⅱ</button><button id="nextPhoto" aria-label="Next photos" type="button">→</button></div></div>
+      </div>
+      <p class="privacy-note"><span>✦</span> Only the photos in your selected memories folder should be used here. Keep private photos out of that folder.</p>
+    </section>
+
+    <section class="letter-section section-pad" id="letter">
+      <div class="letter-wrap">
+        <div class="letter-side"><span class="letter-seal">♥</span><p class="eyebrow">A NOTE FROM MY HEART</p><h2>For you,<br><em>my Tomato.</em></h2><p class="letter-side-copy">Some feelings deserve a page of their own.</p><div class="letter-flower">❧</div></div>
+        <article class="letter-paper">
+          <p class="letter-date">25 October 2026</p>
+          <p>My Dearest Prapti,</p>
+          <p>Happy Birthday, my love. ❤️</p>
+          <p>Our journey began on 18 April 2023, and since then, you have become such a beautiful part of my life. We have shared memories, dreams, laughter, little arguments, and moments that I will always hold close to my heart.</p>
+          <p>Life has brought us through a difficult chapter, and I know that some days have been heavier than words can explain. I cannot undo every hard moment, and I never want you to feel that you have to be strong all the time. On your birthday, more than anything, I wish you peace, comfort, happiness, and the freedom to become everything you dream of being.</p>
+          <p>Thank you for being part of my story. I treasure what we have shared, and I hope the days ahead bring us more kindness, understanding, honest conversations, and beautiful memories—at a pace that feels right for both of us.</p>
+          <p>Today is your day. I hope you smile a little more, feel loved a little deeper, and remember how much goodness you deserve.</p>
+          <p class="letter-ending">Happy Birthday, my Tomato.<br>With all my love, always,</p>
+          <p class="signature">Soumyadip <span>♥</span></p>
+          <button id="revealLetter" class="text-button" type="button">Read the letter slowly ↗</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="promise section-pad">
+      <div class="star-field" aria-hidden="true">✦　·　♡　　✧　·　✦　　♡</div>
+      <p class="eyebrow">ONE LAST THING</p>
+      <h2>No matter how life unfolds,<br><em>I will always wish you light.</em></h2>
+      <p>May this new year of your life bring you the softest mornings, the bravest dreams, and the kind of happiness that stays.</p>
+      <div class="promise-heart">♥</div>
+      <p class="promise-sign">Happy Birthday, Prapti.</p>
+      <a href="#home" class="back-top">Back to the beginning ↑</a>
+    </section>
+  </main>
+
+  <footer><span>Made with love, just for you.</span><span>Soumyadip <b>♥</b> Prapti</span><span>25 · 10 · 2026</span></footer>
+
+  <audio id="birthdaySong" preload="none" loop>
+    <!-- Add your licensed/owned romantic MP3 as assets/our-song.mp3 -->
+    <source src="assets/our-song.mp3" type="audio/mpeg">
+  </audio>
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="View memory" hidden>
+    <button class="lightbox-close" id="closeLightbox" type="button" aria-label="Close image">×</button>
+    <button class="lightbox-nav lightbox-prev" id="lightboxPrev" type="button" aria-label="Previous image">←</button>
+    <img id="lightboxImage" alt="A memory of us">
+    <button class="lightbox-nav lightbox-next" id="lightboxNext" type="button" aria-label="Next image">→</button>
+    <p id="lightboxCaption"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
